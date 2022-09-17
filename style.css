@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100;200;300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'M PLUS Code Latin', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    /* background-color: wheat; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #799de0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 23px 0;
+    gap: 7px;
+}
+
+.header h1 {
+    color: #f5f5f5;
+    font-size: 35px;
+}
+
+.header p {
+    color: #f5f5f5;
+    font-size: 20px;
+}
+
+.main {
+    /* background-color:cadetblue; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 250px;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-details {
+    /* background-color: yellowgreen; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.profile-image {
+    background-color:#d6e6e7a4;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 50%; */
+    align-items: center;
+    justify-content: center;   
+    border: 2px solid #799de06b;
+}
+
+
+.intro-details {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profile-details h4 {
+    color: #0a346b;
+    font-size: 20px;
+}
+
+.full-name,
+.professional-title {
+    /* background-color: #799de0; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+.full-name label,
+.professional-title label {
+    color: #0a346b;
+    font-size: 18px;
+}
+
+.profile-details input {
+    background-color: #d6e6e7a4;
+    font-size: 13px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.contact-details {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+}
+
+.phone, .email, .website {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.phone input, .email input, .website input {
+    /* background-color: #799de0; */
+    width: 100%;
+}
+
+.work-experience {
+    /* background-color: darkcyan; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.work-experience > h4 {
+    color: #0a346b;
+    font-size: 20px;
+}
+
+.work-experience h6 {
+    /* visibility: hidden; */
+    display: none;
+    color: red;
+}
+
+.work-experience label {
+    color: #0a346b;
+    font-size: 18px;
+}
+
+.work-experience input {
+    background-color: #d6e6e7a4;
+    font-size: 13px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none; 
+}
+
+.work-experience textarea {
+    background-color: #d6e6e7a4;
+    font-size: 13px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    height: 120px;
+}
+
+.name-title {
+    /* background-color: #799de0; */
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.name-title div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.start-end {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.start-end div {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.job-description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.education-history {
+    /* background-color: darkolivegreen; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.education-history h4 {
+    color: #0a346b;
+    font-size: 20px;
+}
+
+.level-year, .college-profession {
+    /* background-color: #799de0; */
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.level-year div, .college-profession div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.education-history label {
+    color: #0a346b;
+    font-size: 18px;
+}
+
+.education-history input {
+    background-color: #d6e6e7a4;
+    font-size: 13px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none; 
+}
+
+.certifications {
+    /* background-color: darkgray; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.certifications h4 {
+    color: #0a346b;
+    font-size: 20px;
+}
+
+.certifications > div {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.certificate {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.institution-year {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+}
+
+.institution {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.year {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.certifications label {
+    color: #0a346b;
+    font-size: 18px;
+}
+
+.certifications input {
+    background-color: #d6e6e7a4;
+    font-size: 13px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none; 
+}
+
+.skill-hobby {
+    /* background-color: burlywood; */
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 20px;
+}
+
+.skill-hobby h4 {
+    color: #0a346b;
+    font-size: 20px;
+}
+
+.skill-hobby > div {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.skill, .hobby {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.skill-hobby label {
+    color: #0a346b;
+    font-size: 18px;
+}
+
+.skill-hobby textarea {
+    background-color: #d6e6e7a4;
+    font-size: 13px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none; 
+    height: 70px;
+
+}
+
+button {
+    background: #6495ed;
+    color: whitesmoke;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .9;
+    transition: .4s ease-in;
+}
+
+footer {
+    background-color: #799de0;
+    color: whitesmoke;
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+}
+
+.main h4 {
+    background-color: #799de06b; 
+}

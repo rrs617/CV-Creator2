@@ -1,0 +1,118 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        outline: none;
+        text-decoration: none;
+        box-sizing: border-box;
+        font-family: 'M PLUS Code Latin', sans-serif;
+    }
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .container {
+        width: 100vh;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .header {
+        width: 100%;
+
+    }
+
+    .header h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .header p {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .main {
+        /* background-color:cornsilk; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .profile-details {
+        width: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 40px;
+    }
+
+    .intro-details {
+        width: 100%;
+    }
+
+    .contact-details {
+        width: 100%;
+    }
+
+
+    .work-experience {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .name-title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .education-history {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .certifications {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .certifications div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill-hobby {
+        width: 100%;
+        padding: 20px;
+    }
+
+    button {
+        width: 92%;
+        margin: 20px 0;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+}
